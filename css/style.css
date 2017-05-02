@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Roboto-300/Roboto-300.eot');
+  src: url('../fonts/Roboto-300/Roboto-300.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Light'),
+       local('Roboto-300'),
+       url('../fonts/Roboto-300/Roboto-300.woff2') format('woff2'),
+       url('../fonts/Roboto-300/Roboto-300.woff') format('woff'),
+       url('../fonts/Roboto-300/Roboto-300.ttf') format('truetype'),
+       url('../fonts/Roboto-300/Roboto-300.svg#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Roboto-regular/Roboto-regular.eot');
+  src: url('../fonts/Roboto-regular/Roboto-regular.eot?#iefix') format('embedded-opentype'),
+       local('Roboto'),
+       local('Roboto-regular'),
+       url('../fonts/Roboto-regular/Roboto-regular.woff2') format('woff2'),
+       url('../fonts/Roboto-regular/Roboto-regular.woff') format('woff'),
+       url('../fonts/Roboto-regular/Roboto-regular.ttf') format('truetype'),
+       url('../fonts/Roboto-regular/Roboto-regular.svg#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/Roboto-500/Roboto-500.eot');
+  src: url('../fonts/Roboto-500/Roboto-500.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Medium'),
+       local('Roboto-500'),
+       url('../fonts/Roboto-500/Roboto-500.woff2') format('woff2'),
+       url('../fonts/Roboto-500/Roboto-500.woff') format('woff'),
+       url('../fonts/Roboto-500/Roboto-500.ttf') format('truetype'),
+       url('../fonts/Roboto-500/Roboto-500.svg#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Roboto-700/Roboto-700.eot');
+  src: url('../fonts/Roboto-700/Roboto-700.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Bold'),
+       local('Roboto-700'),
+       url('../fonts/Roboto-700/Roboto-700.woff2') format('woff2'),
+       url('../fonts/Roboto-700/Roboto-700.woff') format('woff'),
+       url('../fonts/Roboto-700/Roboto-700.ttf') format('truetype'),
+       url('../fonts/Roboto-700/Roboto-700.svg#Roboto') format('svg');
+}
+
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Raleway-300/Raleway-300.eot');
+  src: url('../fonts/Raleway-300/Raleway-300.eot?#iefix') format('embedded-opentype'),
+       local('Raleway Light'),
+       local('Raleway-300'),
+       url('../fonts/Raleway-300/Raleway-300.woff2') format('woff2'),
+       url('../fonts/Raleway-300/Raleway-300.woff') format('woff'),
+       url('../fonts/Raleway-300/Raleway-300.ttf') format('truetype'),
+       url('../fonts/Raleway-300/Raleway-300.svg#Raleway') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Raleway-regular/Raleway-regular.eot');
+  src: url('../fonts/Raleway-regular/Raleway-regular.eot?#iefix') format('embedded-opentype'),
+       local('Raleway'),
+       local('Raleway-regular'),
+       url('../fonts/Raleway-regular/Raleway-regular.woff2') format('woff2'),
+       url('../fonts/Raleway-regular/Raleway-regular.woff') format('woff'),
+       url('../fonts/Raleway-regular/Raleway-regular.ttf') format('truetype'),
+       url('../fonts/Raleway-regular/Raleway-regular.svg#Raleway') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/Raleway-500/Raleway-500.eot');
+  src: url('../fonts/Raleway-500/Raleway-500.eot?#iefix') format('embedded-opentype'),
+       local('Raleway Medium'),
+       local('Raleway-500'),
+       url('../fonts/Raleway-500/Raleway-500.woff2') format('woff2'),
+       url('../fonts/Raleway-500/Raleway-500.woff') format('woff'),
+       url('../fonts/Raleway-500/Raleway-500.ttf') format('truetype'),
+       url('../fonts/Raleway-500/Raleway-500.svg#Raleway') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Raleway-600/Raleway-600.eot');
+  src: url('../fonts/Raleway-600/Raleway-600.eot?#iefix') format('embedded-opentype'),
+       local('Raleway SemiBold'),
+       local('Raleway-600'),
+       url('../fonts/Raleway-600/Raleway-600.woff2') format('woff2'),
+       url('../fonts/Raleway-600/Raleway-600.woff') format('woff'),
+       url('../fonts/Raleway-600/Raleway-600.ttf') format('truetype'),
+       url('../fonts/Raleway-600/Raleway-600.svg#Raleway') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Raleway-700/Raleway-700.eot');
+  src: url('../fonts/Raleway-700/Raleway-700.eot?#iefix') format('embedded-opentype'),
+       local('Raleway Bold'),
+       local('Raleway-700'),
+       url('../fonts/Raleway-700/Raleway-700.woff2') format('woff2'),
+       url('../fonts/Raleway-700/Raleway-700.woff') format('woff'),
+       url('../fonts/Raleway-700/Raleway-700.ttf') format('truetype'),
+       url('../fonts/Raleway-700/Raleway-700.svg#Raleway') format('svg');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/Raleway-800/Raleway-800.eot');
+  src: url('../fonts/Raleway-800/Raleway-800.eot?#iefix') format('embedded-opentype'),
+       local('Raleway ExtraBold'),
+       local('Raleway-800'),
+       url('../fonts/Raleway-800/Raleway-800.woff2') format('woff2'),
+       url('../fonts/Raleway-800/Raleway-800.woff') format('woff'),
+       url('../fonts/Raleway-800/Raleway-800.ttf') format('truetype'),
+       url('../fonts/Raleway-800/Raleway-800.svg#Raleway') format('svg');
+}
+
+
+/* hide overflow x for mobile */
+html,body{
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+/* creates space between sections */
+.spacer-bottom{
+ margin-bottom: 20px;
+}
+
+.spacer-top{
+  margin-top: 40px;
+}
+
+.spacer-extra{
+    
+    margin-top: 60px;
+}
+
+/* slideshow are slow loading, hide all images except first one */
+.cycle-slideshow > *:not(:first-child){
+  display: none;
+}
+
+.container{
+  max-width: 1000px;
+    line-height: 26px;
+
+}
+
+/* captions */
+figcaption{
+  font-size: 11px;
+    line-height: 11px;
+  margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+/******* HEADER STYLES **********/
+
+/* background image fallback if video doesn't load */
+header[role="banner"]{
+  background-image: url(https://s3-us-west-1.amazonaws.com/lucaswaldron/towndivided/townsunset.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* holder for everything */
+header[role="banner"] .container-fluid{
+  position: relative;
+  z-index: 10;
+}
+
+/* background video, fill the entire .container-fluid */
+header[role="banner"] video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  width: auto;
+  height: 100vh;
+  z-index: 1;
+}
+@media screen and (min-aspect-ratio: 16/9){
+  header[role="banner"] video{
+    height: auto;
+    width: 100vw;
+  }
+} 
+
+/* main title. Adjust size if needed */
+header[role="banner"] #main-title{
+  background-image: url(../assets/images/town-divided-title.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height:0;
+  /* Town Divided image is 900 x 78. (900/78 = 11.538) Change values below if you swap with different image */
+  padding-top: 11.5384%;
+  margin-top: calc(50vh - 11.5384%);
+}
+
+header[role="banner"] .subhead{
+  color: #ffffff;
+    margin-bottom: 4vw;
+    
+}
+
+header[role="banner"] button{
+  margin-top: 2vw;
+  background:#eee;
+  color: #000;
+  border-color: #000;
+  font-size: 16px;
+  min-width: 218px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+header[role="banner"] button:hover{
+  background-color: #000;
+  color: #eee;
+}
+
+.firstletter{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2em;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+h4{
+    
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-top: 0;
+    font-family: "roboto condensed";
+    
+}
+
+h6{
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+    font-family: "roboto condensed";
+    margin-bottom: 0;
+    
+}
+
+
+h2 {
+    
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    margin-top: 0;
+    
+}
+
+h5{
+    font-family: "roboto";
+    font-weight: 300;
+    margin-top: 2px;
+}
+
+p{
+   font-size: 1.2em; 
+}
+
+.credits{
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.videopadding{
+    
+    margin-bottom: 10px;
+}
